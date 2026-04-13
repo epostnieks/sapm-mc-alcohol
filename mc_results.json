@@ -1,0 +1,141 @@
+{
+  "paper_id": "alcohol",
+  "config_file": "pipeline/mc_configs/alcohol.json",
+  "seed": 42,
+  "n_draws": 100000,
+  "n_channels": 6,
+  "correlation_rho": 0.3,
+  "private_payoff_B": 85.0,
+  "beta_w": {
+    "median": 24.96,
+    "mean": 25.15,
+    "std": 3.58,
+    "p1": 17.65,
+    "p5": 19.63,
+    "p95": 31.35,
+    "p99": 34.37,
+    "ci_90": [
+      19.6,
+      31.4
+    ],
+    "ci_99": [
+      17.7,
+      34.4
+    ],
+    "p_below_1": 0.0,
+    "p_below_1_pct": "0.0000%"
+  },
+  "impossibility_floor": {
+    "floor_value": 2.0,
+    "p_below_floor": 0.0,
+    "p_below_floor_pct": "0.0000%"
+  },
+  "welfare_cost": {
+    "total_median_B": 2121.4,
+    "total_mean_B": 2138.0,
+    "total_p5_B": 1668.3,
+    "total_p95_B": 2664.8
+  },
+  "pi_sa": {
+    "median_B": 2036.4,
+    "mean_B": 2053.0,
+    "p5_B": 1583.3,
+    "p95_B": 2579.8
+  },
+  "channel_statistics": {
+    "C1_mortality_morbidity": {
+      "median": 1098.8,
+      "mean": 1118.9,
+      "p5": 804.9,
+      "p95": 1498.3,
+      "std": 213.0
+    },
+    "C2_organ_damage_cancer": {
+      "median": 149.9,
+      "mean": 150.0,
+      "p5": 114.9,
+      "p95": 185.3,
+      "std": 21.3
+    },
+    "C3_violence_traffic": {
+      "median": 180.0,
+      "mean": 182.0,
+      "p5": 140.9,
+      "p95": 229.9,
+      "std": 27.3
+    },
+    "C4_addiction_family": {
+      "median": 65.0,
+      "mean": 66.8,
+      "p5": 44.4,
+      "p95": 94.9,
+      "std": 15.6
+    },
+    "C5_productivity": {
+      "median": 594.2,
+      "mean": 594.4,
+      "p5": 395.7,
+      "p95": 793.5,
+      "std": 121.2
+    },
+    "C6_governance": {
+      "median": 25.0,
+      "mean": 26.0,
+      "p5": 15.6,
+      "p95": 40.0,
+      "std": 7.6
+    }
+  },
+  "sensitivity_matrix": [
+    {
+      "vsl_multiplier": 0.5,
+      "values": {
+        "dc_0pct": 18.41,
+        "dc_10pct": 16.57,
+        "dc_20pct": 14.73,
+        "dc_30pct": 12.89,
+        "dc_40pct": 11.05
+      }
+    },
+    {
+      "vsl_multiplier": 0.75,
+      "values": {
+        "dc_0pct": 21.65,
+        "dc_10pct": 19.48,
+        "dc_20pct": 17.32,
+        "dc_30pct": 15.15,
+        "dc_40pct": 12.99
+      }
+    },
+    {
+      "vsl_multiplier": 1.0,
+      "values": {
+        "dc_0pct": 24.88,
+        "dc_10pct": 22.39,
+        "dc_20pct": 19.91,
+        "dc_30pct": 17.42,
+        "dc_40pct": 14.93
+      }
+    },
+    {
+      "vsl_multiplier": 1.25,
+      "values": {
+        "dc_0pct": 28.12,
+        "dc_10pct": 25.31,
+        "dc_20pct": 22.49,
+        "dc_30pct": 19.68,
+        "dc_40pct": 16.87
+      }
+    },
+    {
+      "vsl_multiplier": 1.5,
+      "values": {
+        "dc_0pct": 31.35,
+        "dc_10pct": 28.22,
+        "dc_20pct": 25.08,
+        "dc_30pct": 21.95,
+        "dc_40pct": 18.81
+      }
+    }
+  ]
+}
